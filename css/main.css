@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, footer ul li, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #891818;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+}
+
+.fz-h1 {
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.fz-h2 {
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 700;
+}
+
+.fz-h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.fz-h4 {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: url(../img/banner.png) center/cover no-repeat;
+  height: 958px;
+  border: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+header p, header footer ul li, footer ul header li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+header span {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 56px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+}
+
+.about img {
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 384px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 28px;
+}
+
+.intro li:last-child {
+  line-height: 36px;
+}
+
+.jobs {
+  margin-bottom: 56px;
+}
+
+.jobs li {
+  margin-bottom: 28px;
+}
+
+.jobs li::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.brand {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 56px 0px 120px;
+}
+
+.brand h2 {
+  margin-bottom: 12px;
+}
+
+.brand span {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 700;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.brand h3 {
+  margin-bottom: 68px;
+}
+
+.brandCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brandCard li {
+  margin-bottom: 40px;
+}
+
+.brandCard li:nth-child(2) {
+  margin-right: 24px;
+}
+
+.works {
+  text-align: center;
+  padding: 56px 0px 104px;
+}
+
+.works h2 {
+  margin-bottom: 16px;
+}
+
+.works h3 {
+  margin-bottom: 56px;
+}
+
+.worksCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.worksCard li {
+  margin-bottom: 40px;
+}
+
+.worksCard li img {
+  margin-bottom: 8px;
+}
+
+.worksCard li span {
+  display: block;
+}
+
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 64px 0px 48px;
+}
+
+footer h2 {
+  margin-bottom: 16px;
+}
+
+footer ul li {
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=main.css.map */
